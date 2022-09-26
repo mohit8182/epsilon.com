@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: aliceblue;">EPSILON</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home </a>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="hatchback.html">Hatchback</a></li>
+                            <li><a class="dropdown-item" href="#">Couple</a></li>
+                            <li><a class="dropdown-item" href="#">Sedan</a></li>
+                            <li><a class="dropdown-item" href="#">Convertible</a></li>
+                            <li><a class="dropdown-item" href="#">SUV</a></li>
+                            <li><a class="dropdown-item" href="#">Minivan</a></li>
+                            <li><a class="dropdown-item" href="#">Crossover</a></li>
+                            <li><a class="dropdown-item" href="#">sports</a></li>
+                            <li><a class="dropdown-item" href="#">Hot Hatch</a></li>
+                            <li><a class="dropdown-item" href="#">Muscle car</a></li>
+            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" target="_blank">login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">conatct us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                    <div class="mx-2">
+                        <button data-bs-toggle="modal" data-bs-target="loginModal" class="btn btn-dark">login</button>
+                        
+                    </div>
+                    <div class="mx-2">
+                        <button data-bs-toggle="modal" data-bs-target="signupModal" class="btn btn-dark">signup</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+   
+  
+  <!--login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <!-- signup Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel-fade">
+            <div class="carousel-item active">
+                <img src="bmw m5.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+                <div class="carousel-caption d-none d-md-block">
+                   
+                    <h2>BMW M5</h2>
+                    <p>Inside, the 2021 BMW M5 Competition facelift comes equipped with leather upholstery, a 12.3-inch touchscreen infotainment system with wireless Apple CarPlay and Android Auto, wireless charging, BMW’s latest 7.0 OS, HUD, rear-seat entertainment system, CRP sunroof, four-zone climate control, ambient lighting, electrically adjustable seats with memory function, and an automatic tail-gate. Also on offer are M-specific elements such as the sport seats with an illuminated M5 logo, seat-belts, steering wheel, pedals, and foot rest.</p>
+                    <p>Ford Mustang GT Fastback 5.0L v8 is the top model in the Mustang lineup and the price of Mustang top model is ₹ 74.61 Lakh.It returns a certified mileage of 7.9 kmpl. This GT Fastback 5.0L v8 variant comes with an engine putting out 396 bhp @ 6500 rpm and 515 Nm @ 4250 rpm of max power and max torque respectively.</p>
+                   
+                    <button class="btn btn-dark">specification</button>
+                 
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="car2.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Lamborgini huracan </h2>
+                    <p>Lamborghini Huracan EVO is available in Yellow colour. Huracan EVO is also available in 23 colours - Verde Selvans, Grigio Titans Matt Giallo Belenus Contrast, Gray, Grigio Titans Matt Giallo Belenus, Blue, Ruby Red, Bianco Icarus, Black, purpal, Orange, Giallo Belenus, Blu Laufey Arancio, White, Nero Helene, Grigio Adamas, Blu Laufey Arancio Xanto Contras, Yellow, Rosso Efesto, Blu Eleos, Viola Mel, Bianco Asopo Blu le mans, Bianco Asopo Blu Le Mans Contrast and Green.</p>
+                   
+                    <button class="btn btn-dark">specification</button>
+                    
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="car1.jpg" class="d-block w-100" alt="..." style="height: 90vh;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Black Ford Mustang GT</h2>
+                    <p>Ford Mustang GT Fastback 5.0L v8 is the top model in the Mustang lineup and the price of Mustang top model is ₹ 74.61 Lakh.It returns a certified mileage of 7.9 kmpl. This GT Fastback 5.0L v8 variant comes with an engine putting out 396 bhp @ 6500 rpm and 515 Nm @ 4250 rpm of max power and max torque respectively.</p>
+                    
+                   
+                    <button class="btn btn-dark">specification</button>
+                 
+                </div>
+    
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+            </div>     
+    </div>
+    </div>
+    <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1 my-5">Overview</h2>
+          <p class="lead" style="align-items: center;"> The M5 is mighty, boasting 600 horsepower from its twin-turbo 4.4-liter V-8 in base form. In the more track-focused Competition, that figure increases to 617 horses. Believing that the Competition's V-8 had even more power than that we took that model to a dynamometer, were our suspicions proved true.
+            Vehicle Type: front-engine, all/rear-wheel-drive, ...
+            Options: Frozen Brands Hatch Grey paint, $50...
+            Base/As Tested: $143,995/$148,995</p>
+        </div>
+        <div class="col-md-5">
+         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid " width="650" height="500"  src="bmwm5.webp" alt=""style="border: radius 1pw;">
+  
+        </div>
+        </div>
+        <hr class="featurette-divider ">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Exterior</h2>
+              <p class="lead">Exterior styling on the 2014 BMW M5 include a new ‘M kidney grille’, which features the model designation with slats that mimic the new 20 inch double-spoke design alloy wheels. Like the previous version xenon headlights are standard on the M5, there is now the option of Adaptive LED Headlights. The tail lamps, like the rest of the 5 Series family, also gets tweaked a little. The exhaust tips are now finished in black chrome.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="exterior1.webp" alt="">
+      
+            </div>
+          </div>
+          <hr class="featurette-divider">
+          <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1 my-5">Interior</h2>
+              <p class="lead"> The 12.3-inch touchscreen display in the top center of the well-designed dashboard houses the standard BMW's Live Cockpit Professional, which includes another 12.3-inch digital instrument cluster. The infotainment screen also comes with one of the best infotainment systems in the business, called the iDrive 7.0, which comes standard with Bluetooth connectivity, HD Radio, SiriusXM, Apple CarPlay, and Android Auto. Another noteworthy feature is the 16-speaker Harman Kardon system, which gives you a good listening experience. But for $3,400 more, you may upgrade to a 16-speaker Bowers & Wilkins Diamond surround-sound system.</p>
+            </div>
+            
+            <div class="col-md-5">
+             <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid " width="650" height="500"  src="interior1.avif" alt=""style="border: radius 1pw;">
+      
+            </div>
+            <hr class="featurette-divider">
+    
+    <div class="card" style="width: 18rem;">
+        <img src="carimg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p class="d-flex justify-content-center align-item-center">© 2022–2023 Epsilon, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
